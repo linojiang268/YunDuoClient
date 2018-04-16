@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/place_choose_checked" android:state_pressed="true"/>
+    <item android:drawable="@drawable/place_choose_unchecked" android:state_pressed="false"/>
+
+</selector>

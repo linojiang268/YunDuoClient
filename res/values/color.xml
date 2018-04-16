@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="bg_red">#ffc00000</color>
+    <color name="bg_gray">#fff0f0f0</color>
+    <color name="bg_white">#ffffffff</color>
+    <color name="bg_light_blue">#ffdeefff</color>
+    <color name="bg_black">#ff000000</color>
+    <color name="bg_blue">#ff0580b5</color>
+    <color name="bg_deep_gray">#ffcacbcb</color>
+    <color name="font_black">#ff000000</color>
+    <color name="font_red">#ffc00000</color>
+    <color name="font_white">#ffffffff</color>
+    <color name="font_Gray_deep">#ff696969</color>
+    <color name="font_blue_light">#ff7ac9f6</color>
+    <color name="font_blue">#ff0580b5</color>
+    <color name="font_green">#ff288519</color>
+    <color name="font_black_gray">#ff4d4d4d</color>
+    <color name="font_gray_5">#ff999999</color>
+    <color name="font_gray_7">#ff666666</color>
+    <color name="item_click_bg">#b0000000</color>
+    
+    <color name="ipcamera_blue">#ff0044aa</color>
+    <color name="ipcamera_bt_bg_no">#60ffffff</color>
+
+</resources>

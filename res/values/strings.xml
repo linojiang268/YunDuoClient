@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">云朵</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title">云朵智能家居管理系统</string>
+    <string name="digits_password">,._0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ&#064;</string>
+    <!-- 错误 -->
+    <string name="error_page">页面错误</string>
+    <string name="error_protocol">协议错误</string>
+    <!-- 登录页面 -->
+    <string name="login_user_choose_manager">管理员</string>
+    <string name="login_user_choose_user">普通用户</string>
+    <string name="login_address_hint">请输入ip地址</string>
+    <string name="login_password_hint">请输入密码</string>
+    <string name="login_port_hint">请输入端口</string>
+    <string name="logining_waiting">登录中  请稍候</string>
+    <string name="login_port_tmp">6666</string>
+    <string name="login_choose_save_password">记住密码</string>
+    <string name="login_choose_auto_login">自动登录</string>
+    <string name="login_bt_cancel">取消</string>
+    <string name="login_bt_login">登&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;录</string>
+    <!-- 主界面 -->
+    <string name="main_tv">影音</string>
+    <string name="main_blind">窗帘</string>
+    <string name="main_scene">场景</string>
+    <string name="main_air">空调</string>
+    <string name="main_light">灯光</string>
+    <string name="main_security">安防</string>
+    <string name="main_security_blind">安防 幕帘</string>
+    <string name="main_security_gas">安防 煤气</string>
+    <string name="main_security_smoke">安防 烟雾</string>
+    <string name="main_security_temperature">安防 温度</string>
+    <string name="main_security_door">安防 门磁</string>
+    <string name="get_waiting">获取中 请稍候</string>
+    <!-- 修改密码 -->
+    <string name="set_password">设置密码</string>
+    <string name="set_old_password_input_hint">请输入旧密码</string>
+    <string name="set_new_password_input_hint">请输入新密码</string>
+    <string name="set_new_password_input_again_hint">请再次输入新密码</string>
+    <string name="set_please_input_all_right">请正确输入密码</string>
+    <string name="set_password_waiting">密码设置中 请稍候</string>
+    <string name="set_save">保存设置</string>
+    <!-- 修改报警 -->
+    <string name="set_security_users">设置报警联系人</string>
+    <string name="set_security_users_get_waiting">已有报警联系人获取中 请稍候</string>
+    <string name="set_security_user_1_hint">第一位短信联系人号码</string>
+    <string name="set_security_user_2_hint">第二位短信联系人号码</string>
+    <string name="set_security_user_3_hint">第三位短信联系人号码</string>
+    <string name="set_security_user_4_hint">第四位短信联系人号码</string>
+    <string name="set_security_user_5_hint">第五位短信联系人号码</string>
+    <!-- 设置远程组服务端 -->
+    <string name="set_group">设置远程参数</string>
+    <string name="set_group_name">用户名</string>
+    <string name="set_group_pass">密码</string>
+    <string name="set_group_pass_input_again_hint">请再次输入密码</string>
+    <string name="set_group_pass_please_input_all_right">请正确输入参数</string>
+    <string name="set_group_info_waiting">参数设置中 请稍候</string>
+    <string name="set_group_info_save">保存设置</string>
+    <!-- 学习 -->
+    <string name="set_device">设置设备</string>
+    <string name="add_device">新增设备</string>
+    <string name="search_device">搜索设备</string>
+    <string name="search_device_waiting">设备搜索中 请稍候</string>
+    <string name="update_device">修改设备</string>
+    <string name="delete_device">删除设备</string>
+    <string name="warn">警告</string>
+    <string name="delete_no_fb_notice">确认删除吗？</string>
+    <string name="delete_fb_notice">若删除该设备，需要置位该设备后才能再次加入，确认删除吗？</string>
+    <string name="delete_sure">确认</string>
+    <string name="delete_cancel">取消</string>
+    <string name="delete_device_waiting">设备删除中 请稍候</string>
+    <string name="save">保       存</string>
+    <string name="name_hint">请输入名称</string>
+    <string name="learn_waiting">学习中 请稍候</string>
+    <string name="save_waiting">保存中 请稍候</string>
+    <!-- 电视 -->
+    <string name="tv_floor_choose_tmp">一楼</string>
+    <string name="tv_volume">音量</string>
+    <string name="tv_program">节目</string>
+    <string name="infrared_device_control">红外设备</string>
+    <string name="tv_menu">菜单</string>
+    <string name="tv_back">返回</string>
+    <string name="tv_ok">OK</string>
+    <!-- 空调 -->
+    <string name="air_model_auto">自动</string>
+    <string name="air_model_cold">冷气</string>
+    <string name="air_model_dry">除湿</string>
+    <string name="air_model_blowing_in">送风</string>
+    <string name="air_model_hot">暖气</string>
+    <string name="air_wind_speed_small">小</string>
+    <string name="air_wind_speed_middle">中</string>
+    <string name="air_wind_speed_big">大</string>
+    <string name="air_wind_direction_stop">停</string>
+    <string name="air_wind_direction_move">动</string>
+    <!-- 灯光 -->
+    <string name="light_power">电源</string>
+    <!-- 场景 -->
+    <string name="scene_used_h">●常用场景（您可设置6个常用场景）</string>
+    <string name="scene_noused_h">●所有场景</string>
+    <string name="scene_edit_used_h">●常用场景（您最多可设置6个常用场景）</string>
+    <string name="scene_edit_noused_h">●所有场景（请点击设置您的常用场景）</string>
+    <string name="scene_add_input_h">请输入场景名称</string>
+    <string name="scene_add_bt_set">添加设置</string>
+    <string name="scene_add_bt_save">保存场景</string>
+    <string name="scene_add_item_has_set">%1$s  已经设置</string>
+    <string name="scene_no_set_toast">未设置</string>
+    <string name="scene_open">开</string>
+    <string name="scene_close">关</string>
+    <string name="scene_power">电源</string>
+    <string name="scene_no_sound">静音</string>
+    <string name="scene_set_info_waiting">配置获取中 请稍候</string>
+    <string name="scene_set_info_no_refresh">配置信息未获取成功 请稍候刷新</string>
+    <string name="scene_set_info_input_name_h">请输入场景名称</string>
+    <string name="scene_do_waiting">场景设置中 请稍候</string>
+    <string name="scene_set_used_waiting">设置更新中 请稍候</string>
+    <string name="scene_set_to_used">设置为常用场景</string>
+    <string name="scene_set">设置场景</string>
+    <string name="scene_update">修改场景</string>
+    <string name="scene_delete">删除场景</string>
+    <string name="scene_delete_waiting">场景删除中 请稍候</string>
+    <string name="scene_device_add_success">新增设置成功</string>
+    <string name="scene_device_set_success">修改设置成功</string>
+    <string name="scene_command_set">命令设置</string>
+    <string name="scene_command_set_delete">删除此命令设置</string>
+    <string name="scene_command_set_delete_success">删除命令设置成功</string>
+    <!-- 摄像头 -->
+    <string name="alerm_motion_alarm">移动侦测报警</string>
+    <string name="alerm_gpio_alarm">IO联动报警</string>
+    <string name="ipcamera_add">添加IpCamera</string>
+    <string name="ipcamera_search">局域网搜索IpCamera</string>
+    <string name="main_security_ipcamera">安防 摄像头</string>
+
+</resources>

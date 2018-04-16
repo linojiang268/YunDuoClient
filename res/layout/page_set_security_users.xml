@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_common"
+    android:orientation="vertical"
+    tools:context=".XMPPTestPage" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_title_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/bt_back_bg_style"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/set_security_users"
+            android:textColor="@color/font_white"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/svPage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:fadingEdge="none"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp" >
+
+            <EditText
+                android:id="@+id/etUser1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/et_login_input_bg_style"
+                android:gravity="center"
+                android:hint="@string/set_security_user_1_hint"
+                android:inputType="number"
+                android:padding="5dp"
+                android:textColor="@color/font_white"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etUser2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/et_login_input_bg_style"
+                android:gravity="center"
+                android:hint="@string/set_security_user_2_hint"
+                android:inputType="number"
+                android:padding="5dp"
+                android:textColor="@color/font_white"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etUser3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/et_login_input_bg_style"
+                android:gravity="center"
+                android:hint="@string/set_security_user_3_hint"
+                android:inputType="number"
+                android:padding="5dp"
+                android:textColor="@color/font_white"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etUser4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/et_login_input_bg_style"
+                android:gravity="center"
+                android:hint="@string/set_security_user_4_hint"
+                android:inputType="number"
+                android:padding="5dp"
+                android:textColor="@color/font_white"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etUser5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/et_login_input_bg_style"
+                android:gravity="center"
+                android:hint="@string/set_security_user_5_hint"
+                android:inputType="number"
+                android:padding="5dp"
+                android:textColor="@color/font_white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btSave"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/bt_common_style"
+                android:gravity="center"
+                android:text="@string/set_save"
+                android:textColor="@color/font_white"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="50dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
